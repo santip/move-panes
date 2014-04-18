@@ -5,8 +5,6 @@
     'submenu': [
       'label': 'Move Panes'
       'submenu': [
-        { 'label': 'Enlarge active pane', 'command': 'resize-panes:enlarge-active-pane' }
-        { 'label': 'Shrink active pane', 'command': 'resize-panes:shrink-active-pane' }
         { 'label': 'Move pane right', 'command': 'move-panes:move-right' }
         { 'label': 'Move pane left', 'command': 'move-panes:move-left' }
         { 'label': 'Move pane up', 'command': 'move-panes:move-up' }
