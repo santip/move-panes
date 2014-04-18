@@ -9,12 +9,12 @@ cycling the active tab to next/previous panes.
 
 | Command name                        | Default key binding    |
 | ----------------------------------- |:----------------------:|
-| `layout-manager:move-pane-right`    | `cmd-ctrl-shift-right` |
-| `layout-manager:move-pane-left`     | `cmd-ctrl-shift-left`  |
-| `layout-manager:move-pane-up`       | `cmd-ctrl-shift-up`    |
-| `layout-manager:move-pane-down`     | `cmd-ctrl-shift-down`  |
-| `layout-manager:move-pane-next`     | None                   |
-| `layout-manager:move-pane-previous` | None                   |
+| `move-panes:move-right`    | `cmd-ctrl-shift-right` |
+| `move-panes:move-left`     | `cmd-ctrl-shift-left`  |
+| `move-panes:move-up`       | `cmd-ctrl-shift-up`    |
+| `move-panes:move-down`     | `cmd-ctrl-shift-down`  |
+| `move-panes:move-next`     | None                   |
+| `move-panes:move-previous` | None                   |
 
 ## Related packages
 
