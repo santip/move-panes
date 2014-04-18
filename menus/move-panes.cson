@@ -1,0 +1,19 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Move Panes'
+      'submenu': [
+        { 'label': 'Enlarge active pane', 'command': 'resize-panes:enlarge-active-pane' }
+        { 'label': 'Shrink active pane', 'command': 'resize-panes:shrink-active-pane' }
+        { 'label': 'Move pane right', 'command': 'move-panes:move-right' }
+        { 'label': 'Move pane left', 'command': 'move-panes:move-left' }
+        { 'label': 'Move pane up', 'command': 'move-panes:move-up' }
+        { 'label': 'Move pane down', 'command': 'move-panes:move-down' }
+        { 'label': 'Move pane next', 'command': 'move-panes:move-next' }
+        { 'label': 'Move pane previous', 'command': 'move-panes:move-previous' }
+      ]
+    ]
+  }
+]
