@@ -26,4 +26,4 @@ cycling the active tab to next/previous panes.
 - [Layout Manager](https://atom.io/packages/layout-manager)
 
 
-# [Feedback](https://github.com/santip/resize-panes/issues) and PRs are welcome.
+# [Feedback](https://github.com/santip/move-panes/issues) and PRs are welcome.
