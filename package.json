@@ -3,14 +3,16 @@
   "main": "./lib/move-panes",
   "version": "0.1.2",
   "description": "Move panes right, left, up, down, next or previous",
-  "activationEvents": [
-    "move-panes:move-right",
-    "move-panes:move-left",
-    "move-panes:move-up",
-    "move-panes:move-down",
-    "move-panes:move-next",
-    "move-panes:move-previous"
-  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "move-panes:move-right",
+      "move-panes:move-left",
+      "move-panes:move-up",
+      "move-panes:move-down",
+      "move-panes:move-next",
+      "move-panes:move-previous"
+    ]
+  },
   "repository": "https://github.com/santip/move-panes",
   "license": "MIT",
   "engines": {
