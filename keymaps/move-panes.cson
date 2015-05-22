@@ -7,7 +7,7 @@
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
-'.workspace':
+'atom-workspace':
   'cmd-ctrl-shift-right': 'move-panes:move-right'
   'cmd-ctrl-shift-left': 'move-panes:move-left'
   'cmd-ctrl-shift-down': 'move-panes:move-down'
