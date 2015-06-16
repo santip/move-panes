@@ -1,12 +1,12 @@
 module.exports =
 
   activate: (state) ->
-    atom.workspaceView.command "move-panes:move-right", => @moveRight()
-    atom.workspaceView.command "move-panes:move-left", => @moveLeft()
-    atom.workspaceView.command "move-panes:move-down", => @moveDown()
-    atom.workspaceView.command "move-panes:move-up", => @moveUp()
-    atom.workspaceView.command "move-panes:move-next", => @moveNext()
-    atom.workspaceView.command "move-panes:move-previous", => @movePrevious()
+    atom.commands.add "atom-workspace", "move-panes:move-right": => @moveRight()
+    atom.commands.add "atom-workspace", "move-panes:move-left", => @moveLeft()
+    atom.commands.add "atom-workspace", "move-panes:move-down", => @moveDown()
+    atom.commands.add "atom-workspace", "move-panes:move-up", => @moveUp()
+    atom.commands.add "atom-workspace", "move-panes:move-next", => @moveNext()
+    atom.commands.add "atom-workspace", "move-panes:move-previous", => @movePrevious()
 
   moveRight: -> @move 'horizontal', +1
   moveLeft: -> @move 'horizontal', -1
