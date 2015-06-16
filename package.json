@@ -1,7 +1,7 @@
 {
   "name": "move-panes",
   "main": "./lib/move-panes",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Move panes right, left, up, down, next or previous",
   "activationCommands": {
     "atom-workspace": [
