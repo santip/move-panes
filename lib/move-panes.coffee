@@ -45,7 +45,7 @@ module.exports =
     axis = pane.parent
     child = pane
     while true
-      return unless axis.constructor.name == 'PaneAxis'
+      return [] unless axis.constructor.name == 'PaneAxis'
       break if axis.orientation == orientation
       child = axis
       axis = axis.parent
@@ -55,7 +55,7 @@ module.exports =
     position = axis.children.indexOf source
     target = position + delta
     return unless target < axis.children.length
-    return axis.children[target].getPanes()[0]
+    return axis.children[target].getPanes()[0] if axis.children[target]
 
   deactivate: ->
 
