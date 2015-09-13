@@ -45,7 +45,7 @@ module.exports =
     axis = pane.parent
     child = pane
     while true
-      return unless axis.constructor.name == 'PaneAxis'
+      return [] unless axis.constructor.name == 'PaneAxis'
       break if axis.orientation == orientation
       child = axis
       axis = axis.parent
